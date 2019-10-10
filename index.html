@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sticky Footer</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="document">
+            <main>
+                <h1>Everything apart from the footer goes here</h1>
+                <p>For the most projects, you’ll want a footer that stays at the bottom of the screen, regardless of the size of the content — if the page’s content goes past the view-port, the footer should adapt.
+                    Before CSS3, it was very difficult to achieve this effect without knowing the exact height of your footer. And, although we call it a sticky footer, you can’t simply solve this with position: sticky , because that can block content.
+                    Today, the most compatible solution is to use Flexbox. The key is to use the less well-known flex-grow property on the div containing the main content of the page; in the example below, I’m using the main tag.
+                    flex-grow controls how much a flex item fills its container, relative to other flex elements. With a value of 0, it won’t grow at all, and so we need to set it to 1 or more. In the example below, I’ve used the shorthand property flex: auto , which sets flex-grow to 1 by default.
+                    To prevent any unwanted behaviour, we can also add flex-shrink: 0 to the footer tag. flex-shrink is effectively the opposite of the flex-grow property, controlling the amount a flex element shrinks to fit into its container, and setting it to 0 will prevent the footer from shrinking at all — ensuring that it retains its dimensions.
+                </p>
+            
+                <p>For the most projects, you’ll want a footer that stays at the bottom of the screen, regardless of the size of the content — if the page’s content goes past the view-port, the footer should adapt.
+                    Before CSS3, it was very difficult to achieve this effect without knowing the exact height of your footer. And, although we call it a sticky footer, you can’t simply solve this with position: sticky , because that can block content.
+                    Today, the most compatible solution is to use Flexbox. The key is to use the less well-known flex-grow property on the div containing the main content of the page; in the example below, I’m using the main tag.
+                    flex-grow controls how much a flex item fills its container, relative to other flex elements. With a value of 0, it won’t grow at all, and so we need to set it to 1 or more. In the example below, I’ve used the shorthand property flex: auto , which sets flex-grow to 1 by default.
+                    To prevent any unwanted behaviour, we can also add flex-shrink: 0 to the footer tag. flex-shrink is effectively the opposite of the flex-grow property, controlling the amount a flex element shrinks to fit into its container, and setting it to 0 will prevent the footer from shrinking at all — ensuring that it retains its dimensions.
+                </p>
+            
+                <p>For the most projects, you’ll want a footer that stays at the bottom of the screen, regardless of the size of the content — if the page’s content goes past the view-port, the footer should adapt.
+                        Before CSS3, it was very difficult to achieve this effect without knowing the exact height of your footer. And, although we call it a sticky footer, you can’t simply solve this with position: sticky , because that can block content.
+                        Today, the most compatible solution is to use Flexbox. The key is to use the less well-known flex-grow property on the div containing the main content of the page; in the example below, I’m using the main tag.
+                        flex-grow controls how much a flex item fills its container, relative to other flex elements. With a value of 0, it won’t grow at all, and so we need to set it to 1 or more. In the example below, I’ve used the shorthand property flex: auto , which sets flex-grow to 1 by default.
+                        To prevent any unwanted behaviour, we can also add flex-shrink: 0 to the footer tag. flex-shrink is effectively the opposite of the flex-grow property, controlling the amount a flex element shrinks to fit into its container, and setting it to 0 will prevent the footer from shrinking at all — ensuring that it retains its dimensions.
+                </p>
+            </main>
+
+            <footer>
+                    <h1>The footer goes here</h1>
+            </footer>
+    </div>
+    
+</body>
+</html>
