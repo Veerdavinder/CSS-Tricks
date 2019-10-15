@@ -1,0 +1,27 @@
+*{
+    text-align:center;
+    font-family: Candara;
+    font-size: 1.3rem;
+}
+
+.breadcrumb a:first-child::before {
+    content: " » ";
+}
+.breadcrumb a::after {
+    content: " /";
+}
+.breadcrumb a:last-child::after {
+    content: "";
+}
+
+ul{
+    list-style:none;
+}
+
+ul.complete li::before{
+    content:'🗹 ';
+}
+
+ul.incomplete li::before{
+    content:'☐';
+}
