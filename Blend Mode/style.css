@@ -1,0 +1,25 @@
+
+ h1 {
+    mix-blend-mode: color-dodge;
+    font-family: Candara;
+    font-size: 5rem;
+    text-align: center;
+    margin: 0; 
+    padding: 20vh 200px;
+    color: lightsalmon;
+  }
+
+  html,
+  body {
+    margin: 0;
+    background-color: white;
+  }
+
+  body {
+
+    background-image: url('Image/photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+  }
